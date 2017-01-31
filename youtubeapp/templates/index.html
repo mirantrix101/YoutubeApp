@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang='en'>
+<header>
+	<meta charset = 'UTF-8'>
+	<title>youTube App</title>
+	<link rel="stylesheet" type="text/css" href="static/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai" rel="stylesheet">
+	
+</header>
+
+<body> 
+
+	<form method="POST" action="/">
+		{{form.crsf_token}}
+
+		<p>Escribe una <span style= "color: #FFFFFF;">PALABRA</span> y te damos un<span style= "color: #FF0066;"> VIDEO </span> : {{form.sentimiento}} <input type="submit" value='Submit'></p>
+	</form>
+
+	<iframe width="854" height="480" src={{data.url}} allowfullscreen></iframe>
+
+	<p>{{data.titulo}}</p>
+
+
+	<footer>
+		<p>Made by the <span style= "color: #eeeeee;">YouTube App</span> Team (Melina, Ximena, Alex, Alex) <span style= "color: #FF0066;">Cinta Roja</span> Batch #11</p>
+	</footer>
+
+</body>
+</html>

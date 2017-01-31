@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang='en'>
+<header>
+	<meta charset = 'UTF-8'>
+	<title>youTube App</title>
+	<link rel="stylesheet" type="text/css" href="static/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai" rel="stylesheet">
+	
+</header>
+
+<body> 
+
+	<form method='POST'>
+		{{form.csrf_token}}
+		<p>Nombre: {{form.nombreCompleto}}</p>
+		<p>Teléfono: {{form.telefono}}</p>
+		<p>Email: {{form.email}}</p>
+		<p>Password: {{form.password}}</p>
+		<input type='submit' value="Log In">
+	</form>
+	<p>{{data}}</p>
+
+</body>
+</html>

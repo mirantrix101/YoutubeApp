@@ -1,0 +1,51 @@
+iframe, body, img, a{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+
+
+body { 
+	color: #FFFFFF;
+	text-align: center;
+	background-color: #0C090A;
+	font-family: Helvetica;
+	font-size: 16px
+}
+
+h1 {
+	font-size: 2em;
+	padding: 2em 0 2em 0;
+}
+
+iframe {
+	padding: 20px 0 20px 0;
+}
+
+input {
+	font-size: 1em;
+	padding-right: .6em;
+
+}
+
+footer {
+	color: #666666;
+	padding-right: 1em;
+}
+
+form {
+
+	padding: 2em 0 1em 0;
+	font-family: 'Baloo Bhai', cursive;
+	color: #DCDCDC;
+
+	
+}
+
+form p{
+	font-size: 1.5em;
+}
+
+
